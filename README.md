@@ -20,11 +20,14 @@ secrets local.
 
 ## Quick start
 
-Install Capsule from this checkout:
+Install the current release directly from GitHub:
 
 ```console
-python -m pip install -e .
+python -m pip install "capsule-cli @ git+https://github.com/AmanSreejesh/capsule.git@main"
 ```
+
+For a local source checkout, use `python -m pip install .`. Editable installs belong in the
+development workflow below.
 
 Run it in a JavaScript or TypeScript project:
 
